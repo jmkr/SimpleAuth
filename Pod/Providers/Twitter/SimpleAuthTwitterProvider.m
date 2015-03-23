@@ -85,7 +85,7 @@
                 [sheet addButtonWithTitle:title];
             }
             sheet.actionSheetStyle = UIActionSheetStyleBlackTranslucent;
-            sheet.cancelButtonIndex = [sheet addButtonWithTitle:NSLocalizedString(@"GENERAL_CANCEL", nil)];
+            sheet.cancelButtonIndex = [sheet addButtonWithTitle:NSLocalizedString(@"Cancel", nil)];
             
             SEL s = @selector(actionSheet:clickedButtonAtIndex:);
             Protocol *p = @protocol(UIActionSheetDelegate);
